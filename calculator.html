@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div>
+        <div>
+            <label id="result" align="right">0</label>
+        </div>
+        <div>
+            <div>
+                <button id="btn7" onclick="showNumber(event)">7</button>
+                <button id="btn8" onclick="showNumber(event)">8</button>
+                <button id="btn9" onclick="showNumber(event)">9</button>
+            </div>
+            <div>
+                <button id="btn4" onclick="showNumber(event)">4</button>
+                <button id="btn5" onclick="showNumber(event)">5</button>
+                <button id="btn6" onclick="showNumber(event)">6</button>
+            </div>
+            <div>
+                <button id="btn1" onclick="showNumber(event)">1</button>
+                <button id="btn2" onclick="showNumber(event)">2</button>
+                <button id="btn3" onclick="showNumber(event)">3</button>
+            </div>
+            <div>
+                <button id="btn0" onclick="showNumber(event)">0</button>
+                <button id="btndot" onclick="addMark(event)"> . </button>
+                <button id="btnequal" onclick="showResult()"> = </button>
+            </div>
+        </div>
+        <div>
+            <div><button id="btntimes" onclick="addMark(event)">&times;</button></div>
+            <div><button id="btndivi" onclick="addMark(event)">&divide;</button></div>
+            <div><button id="btnminus" onclick="addMark(event)">&minus;</button></div>
+            <div><button id="btnplus" onclick="addMark(event)">+</button></div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
