@@ -11,9 +11,9 @@
 <body>
     <div>
         <div>
-            <label id="result" align="right">0</label>
+            <label id="result">0</label>
         </div>
-        <div>
+        <div style="display: inline; float: left;">
             <div>
                 <button id="btn7" onclick="showNumber(event)">7</button>
                 <button id="btn8" onclick="showNumber(event)">8</button>
@@ -31,11 +31,11 @@
             </div>
             <div>
                 <button id="btn0" onclick="showNumber(event)">0</button>
-                <button id="btndot" onclick="addMark(event)"> . </button>
+                <button id="btndot" onclick="addMark(event)">.</button>
                 <button id="btnequal" onclick="showResult()"> = </button>
             </div>
         </div>
-        <div>
+        <div style="display: inline; float: left; margin-left: 5px;">
             <div><button id="btntimes" onclick="addMark(event)">&times;</button></div>
             <div><button id="btndivi" onclick="addMark(event)">&divide;</button></div>
             <div><button id="btnminus" onclick="addMark(event)">&minus;</button></div>
